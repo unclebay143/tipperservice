@@ -56,10 +56,10 @@ header.masthead {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://5.imimg.com/data5/EH/NO/XG/ANDROID-88252979/landscape-material-600x600-png-500x500.png")center/cover fixed no-repeat;
   background-size: contain;
   background-position: center center;
-  /* position: relative;
+  position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem; */
+  padding-bottom: 7rem;
 }
 header.masthead .masthead-content {
   z-index: 1;
@@ -69,7 +69,9 @@ header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
 }
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 1.6rem !important;
+  text-transform: lowercase;
 }
 /* header.masthead .bg-circle {
   z-index: 0;
